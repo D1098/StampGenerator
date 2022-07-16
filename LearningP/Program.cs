@@ -14,6 +14,7 @@ namespace LearningP
         public static void Main(string[] args)
         {
             int Test = 0;
+            // Комментарий для тестов
             CreateHostBuilder(args).Build().Run();
             //StampInfoContext db = new StampInfoContext();
             //db.Add(new StampInfo("FIO_TEST")); //{ Reason="AAA", Time = DateTime.Now, StampGuid = Guid.NewGuid()});
