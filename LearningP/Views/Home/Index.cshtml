@@ -4,12 +4,13 @@
     @using System.DrawingCore.Imaging;
     @using System.IO;
     ViewData["Title"] = "Home Page";
-    StampInfoContext db = new StampInfoContext();
-    Image image = Image.FromStream(new MemoryStream(db.Stamps.Where(s=>s.Stamp!=null).FirstOrDefault().Stamp));
+    //StampInfoContext db = new StampInfoContext();
+    //Image image = Image.FromStream(new MemoryStream(db.Stamps.Where(s=>s.Stamp!=null).FirstOrDefault().Stamp));
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <img src="data:image/png;base64, @db.Stamps.FirstOrDefault().Stamp" alt="Sample Photo" />
+    @{//<img src="data:image/png;base64, @db.Stamps.FirstOrDefault().Stamp" alt="Sample Photo" />
+    }
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

@@ -15,12 +15,9 @@ namespace LearningP
         {
             CreateHostBuilder(args).Build().Run();
             //StampInfoContext db = new StampInfoContext();
-            //db.Add(new StampInfo("FIO_TEST")); //{ Reason="AAA", Time = DateTime.Now, StampGuid = Guid.NewGuid()});
-            //db.SaveChanges();
-            StampInfoContext db = new StampInfoContext();
             TestClass testClass = new TestClass { StampGuid = Guid.NewGuid() };
-            db.Tests.Add(testClass);
-            db.SaveChanges();
+            //db.Tests.Add(testClass);
+            //db.SaveChanges();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
