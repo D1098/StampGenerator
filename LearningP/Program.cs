@@ -18,6 +18,13 @@ namespace LearningP
             TestClass testClass = new TestClass { StampGuid = Guid.NewGuid() };
             //db.Tests.Add(testClass);
             //db.SaveChanges();
+            /*
+             * 
+             * 
+             * 
+             * 
+             * 
+             * */
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
