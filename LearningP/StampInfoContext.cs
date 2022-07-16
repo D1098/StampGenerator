@@ -23,10 +23,10 @@ namespace LearningP
                 );
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=Stamps;Trusted_Connection=True;");//@"Server=(.\SQLEXPRESS);Database=Stamps;Trusted_Connection=True;");//@"Data Source=MSI/Denis;Initial Catalog=Stamps;Integrated Security=True");
             //base.OnConfiguring(optionsBuilder);
-        }
+        }*/
     }
 }
