@@ -16,6 +16,7 @@ namespace LearningP
             int Test = 0;
             // Комментарий для тестов краказябра
             CreateHostBuilder(args).Build().Run();
+            /// КОММЕНТАРИЙ
             //StampInfoContext db = new StampInfoContext();
             //db.Add(new StampInfo("FIO_TEST")); //{ Reason="AAA", Time = DateTime.Now, StampGuid = Guid.NewGuid()});
             //db.SaveChanges();
