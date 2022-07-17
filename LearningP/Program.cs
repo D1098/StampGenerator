@@ -19,7 +19,7 @@ namespace LearningP
             //db.Tests.Add(testClass);
             //db.SaveChanges();
         }
-        //123
+        //1
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
