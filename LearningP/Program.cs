@@ -13,7 +13,10 @@ namespace LearningP
     {
         public static void Main(string[] args)
         {
+            int Test = 0;
+            // Комментарий для тестов краказябра
             CreateHostBuilder(args).Build().Run();
+            /// КОММЕНТАРИЙ
             //StampInfoContext db = new StampInfoContext();
             TestClass testClass = new TestClass { StampGuid = Guid.NewGuid() };
             //db.Tests.Add(testClass);
